@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-dark: #120A08;
+  --color-coffee: #3E1F0D;
+  --color-brown: #5B3625;
+  --color-gold: #C08B5C;
+  --color-cream: #F5E6D3;
+
+  --font-poppins: "Poppins", sans-serif;
+  --font-cormorant: "Cormorant Garamond", serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-bg-dark);
+  color: var(--color-cream);
+  font-family: var(--font-cormorant);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins);
+}
+
+/* * {
+  cursor: none !important;
+}
+
+.custom-cursor {
+  cursor: none;
+} */
