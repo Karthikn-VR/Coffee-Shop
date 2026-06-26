@@ -189,9 +189,9 @@ Submits a new handcrafted coffee order to the database.
 ```json
 {
   "customer": {
-    "name": "Jane Doe",
+    "name": "Karthikeyan VR",
     "phone": "9876543210",
-    "email": "jane@example.com",
+    "email": "karthikeyan33607@gmail.com",
     "instructions": "Extra hot, no foam"
   },
   "order": {
@@ -244,6 +244,4 @@ Retrieves a chronological list of placed orders, showing the latest orders first
 ---
 
 ## 📜 License & Attributions
-* Designed and built as a modern, interactive single-page e-commerce demonstration.
-* Steam visual layout and particle rendering crafted using [Framer Motion](https://www.framer.com/motion/).
-* Free vector illustrations & assets are credited to respective creator archives.
+* Feel Free to Use it
